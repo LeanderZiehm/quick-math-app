@@ -1,5 +1,7 @@
 package com.leanderziehm.math_web_app.model;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+
 public enum Operator{
     TIMES("*"),
     DIVISION("/"),
@@ -12,8 +14,11 @@ public enum Operator{
         this.description = description;
     }
     
+    @JsonValue
     public String getDescription() {
         return description;
     }
 
 }
+
+

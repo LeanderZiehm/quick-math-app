@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
-@OpenAPIDefinition(info = @Info(title = "Example API", contact = @Contact(name = "Leander", email = "contact@leanderziehm.com"), version = "0.1.0"))
+@OpenAPIDefinition(info = @Info(title = "Math API", contact = @Contact(name = "Leander", email = "contact@leanderziehm.com"), version = "0.1.0"))
 @Configuration
 public class OpenApiConfig {
 
